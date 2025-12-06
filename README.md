@@ -50,13 +50,3 @@
 - `ai.py` tries to call OpenAI ChatCompletion. If no API key is present, a safe local fallback delivers helpful, generic answers.
 - The UI displays the answer.
 
-## What to show in the video (2-3 minutes)
-1. Quick intro of you and why you built MetroMentor AI.
-2. Demo: Ask 2 sample questions (teacher qualifications, program strengths).
-3. Explain the architecture: Flask backend, AI module, single-page frontend.
-4. Mention possible expansions: database of teacher profiles, authenticated admin panel, multi-language support, evaluation metrics.
-
-## Notes for interview
-- Be ready to explain how you would validate model outputs (hallucination checks), store/curate profiles, and add caching or embeddings for faster, factual answers.
-- Security: never hard-code API keys; use environment variables.
-- Deployment: simple options include Render, Heroku, or a small VM. For production, add rate limits and user authentication.
